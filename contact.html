@@ -7,6 +7,10 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/fab15f6c83.js" crossorigin="anonymous"></script>
+  <style>
+    .contact-links { font-weight: bold; font-size: larger; }
+  </style>
   <title>Cecil King's Porfolio</title>
 </head>
 <body>
@@ -36,22 +40,29 @@
   </header>
   <main class="container">
     <h1 class="border-bottom">Contact</h1>
-    <p>Use the form below to send me a message.</p>
-    <form class="mb-3">
-      <div class="form-group">
-        <label for="InputName">Name</label>
-        <input type="text" class="form-control" id="InputName" placeholder="Name">
-      </div>
-      <div class="form-group">
-        <label for="InputEmail">Email address</label>
-        <input type="email" class="form-control" id="InputEmail" placeholder="Email">
-      </div>
-      <div class="form-group">
-        <label for="Message">Message</label>
-        <textarea class="form-control" id="Message" rows="5"></textarea>
-      </div>
-      <button type="submit" class="btn btn-primary" disabled>Submit</button>
-    </form>
+    <div class="row contact-links mb-2">
+      <a href="https://www.linkedin.com/in/cecil-e-king" class="col-3">Linkedin <i class="fab fa-linkedin"></i></a>
+      <a href="assets/docs/Cecil_King_Resume.pdf" class="col-3">Resume <i class="fas fa-file-pdf"></i></a>
+      <a href="https://github.com/cek333" class="col-3">GitHub <i class="fab fa-github"></i></a>
+    </div>
+    <div class="row">
+      <p class="col-12">Use the form below to send me a message.</p>
+      <form class="col-6 mb-3">
+        <div class="form-group">
+          <label for="InputName">Name</label>
+          <input type="text" class="form-control" id="InputName" placeholder="Name">
+        </div>
+        <div class="form-group">
+          <label for="InputEmail">Email address</label>
+          <input type="email" class="form-control" id="InputEmail" placeholder="Email">
+        </div>
+        <div class="form-group">
+          <label for="Message">Message</label>
+          <textarea class="form-control" id="Message" rows="5"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" disabled>Submit</button>
+      </form>
+    </div>
   </main>
   <footer class="bg-light text-muted text-center py-2 border-top border-bottom border-dark">
     <p>Copyright 2020 Cecil King</p>
