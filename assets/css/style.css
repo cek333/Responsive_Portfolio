@@ -1,0 +1,62 @@
+html {
+  font-size: 18px;
+}
+
+/* Nav Bar */
+nav mark {
+  background: transparent;
+}
+
+.bg-primary {
+  background-color: #35465c !important;
+}
+
+/* Footer */
+footer * {
+  color: #fff;
+  display: inline-block;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+/* Links */
+a {
+  color: #35465c;
+  font-weight: bold;
+}
+
+/* About Page */
+.profile-greeting {
+  color: #35465c;
+}
+
+.img-profile {
+  border-radius: 50% !important;
+  max-width: 10rem;
+  max-height: 10rem;
+  border: 0.5rem solid rgba(255, 255, 255, 0.2);
+}
+
+/* Contact Page */
+.contact-links { 
+  font-weight: bold; font-size: larger;
+}
+
+/* |Portfolio Page */
+.btn-primary {
+  background-color: #35465c !important;
+  border: none;
+}
+
+.card {
+  max-width: 360px;
+}
+
+.card-img-bottom {
+  filter: grayscale(1);
+}
+
+.card-title {
+  color: #35465c !important;
+  font-weight: bold;
+}
