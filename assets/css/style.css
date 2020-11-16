@@ -1,3 +1,7 @@
+:root {
+  --portfolio-theme: #35465c;
+}
+
 html {
   font-size: 18px;
 }
@@ -8,7 +12,7 @@ nav mark {
 }
 
 .bg-primary {
-  background-color: #35465c !important;
+  background-color: var(--portfolio-theme) !important;
 }
 
 /* Footer */
@@ -21,13 +25,13 @@ footer * {
 
 /* Links */
 a {
-  color: #35465c;
+  color: var(--portfolio-theme);
   font-weight: bold;
 }
 
 /* About Page */
 .profile-greeting {
-  color: #35465c;
+  color: var(--portfolio-theme);
 }
 
 .img-profile {
@@ -44,7 +48,7 @@ a {
 
 /* |Portfolio Page */
 .btn-primary {
-  background-color: #35465c !important;
+  background-color: var(--portfolio-theme) !important;
   border: none;
 }
 
@@ -57,6 +61,6 @@ a {
 }
 
 .card-title {
-  color: #35465c !important;
+  color: var(--portfolio-theme) !important;
   font-weight: bold;
 }
