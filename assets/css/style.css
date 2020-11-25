@@ -15,6 +15,15 @@ nav mark {
   background-color: var(--portfolio-theme) !important;
 }
 
+nav a {
+  color: grey;
+  font-weight: bold;
+}
+
+nav .active {
+  color: white;
+}
+
 /* Footer */
 footer * {
   color: #fff;
@@ -24,7 +33,7 @@ footer * {
 }
 
 /* Links */
-a {
+main a {
   color: var(--portfolio-theme);
   font-weight: bold;
 }
