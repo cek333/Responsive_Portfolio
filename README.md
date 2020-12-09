@@ -7,10 +7,6 @@ From the screen shots below, you can see how the layout changes depending on the
 ![Screenshot of the About page on a small screen](assets/readme/about_xs.png)
 ![Screenshot of the Portfolio page on a small screen](assets/readme/portfolio_xs.png)
 
-## Layout on Medium-sized Screens
-![Screenshot of the About page on a medium-sized screen](assets/readme/about_md.png)
-![Screenshot of the Portfolio page on a medium-sized screen](assets/readme/portfolio_md.png)
-
 ## Layout on Large Screens
 ![Screenshot of the About page on a large screen](assets/readme/about_lg.png)
 ![Screenshot of the Portfolio page on a large screen](assets/readme/portfolio_lg.png)
