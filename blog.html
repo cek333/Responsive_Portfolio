@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/fab15f6c83.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Cecil King's Porfolio</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <mark class="navbar-brand font-weight-bold">Cecil King</mark>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks" aria-controls="navbarLinks" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarLinks">
+        <!-- add span with mr-auto to right align nav links -->
+        <span class="mr-auto d-none d-lg-inline">&nbsp;</span>
+        <ul class="navbar-nav">
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="assets/docs/Cecil_King_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="blog.html">Blog <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="container">
+    <h4 class="post-border-bottom font-italic text-center mb-3">Documenting my projects, milestones, and transition to web development.</h4>
+    <div class="post-border-bottom mb-2">
+      <h6 id="2021-03-08" class="font-italic"><span class="post-date">Mar 8, 2021</span>: Udemy’s <a href="https://www.udemy.com/course/coding-interview-bootcamp-algorithms-and-data-structure" target="_blank" rel="noopener noreferrer">The Coding Interview Bootcamp: Algorithms + Data Structures</a></h6>
+      <p>This was a good course on Algorithms and Data Structures (in JavaScript), for anyone that's interested. One interview I had (before taking this course!!) did ask questions that were covered in the course. So it could be a helpful part of your technical interview prep.</p>
+      <p>You can view my certificate of completion <a href="https://www.udemy.com/certificate/UC-5859bc38-d484-4292-bb78-2e8c7b66f2d9/" target="_blank" rel="noopener noreferrer">here</a>.</p>
+    </div>
+    <div class="post-border-bottom mb-2">
+      <h6 id="2021-02-28" class="font-italic"><span class="post-date">Feb 28, 2021</span>: <a href="https://github.com/cek333/Quote_Catalog_Android_Kotlin_Edition" target="_blank" rel="noopener noreferrer">Quote Catalog Android Kotlin Edition</a></h6>
+      <p>I was always interested in mobile app development ... I have a few app ideas I hope to complete in the near future. A friend also suggested I learn Kotlin. So I decided to jump in. I did the <a href="https://developer.android.com/courses/kotlin-bootcamp/overview" target="_blank" rel="noopener noreferrer">Kotlin Bootcamp for Programmers</a>, followed by <a href="https://developer.android.com/courses/kotlin-android-fundamentals/toc" target="_blank" rel="noopener noreferrer">Android Kotlin Fundamentals</a>. It turned out to be much more intensive that I had expected ... it was like doing a full bootcamp all over again! Having started, I decided to follow through.</p>
+      <p>To test what I learnt, I re-implemented all the features of my <a href="#2021-01-18">Quote Catalog</a> application (with the exception of multi-user login). This task was of sufficient complexity that I got to exercise many of the techniques covered in the lessons as well as some that were not (such as permissions, changing the app icon, and writing to the filesystem). This was my very first Andorid application, and I was pleased with how it turned out. However, I’m not as proficient in Kotlin as I’d like to be, so I’ll continue working on that.</p>
+      <p>If you have Android Studio, you can download the code and try it on a phone that’s in developer mode.</p>
+    </div>
+    <div class="post-border-bottom mb-2">
+      <h6 id="2021-01-18" class="font-italic"><span class="post-date">Jan 18, 2021</span>: <a href="https://github.com/cek333/Quote_Catalog" target="_blank" rel="noopener noreferrer">Quote Catalog</a></h6>
+      <p>Quote Catalog was the result of a pre-interview technical challenge for a job application. The task was to build an image browser. At the same time, I took the opportunity to test out some new technologies.</p>
+      <p>For one of the bootcamp assignments, we were given some code, and our task was to explain how it worked. That code made use of passport.js. In the process of completing the assignment, I was able to document how passport.js could be used for user authentication, however I didn’t write any code that used passport.js. So now, this was my chance.</p>
+      <p>Also, having completed the MongoDB developer courses a few days earlier, I wanted to use the MongoDB driver in this new project as well.</p>
+      <p>So I created a MERN (MongoDB, Express.js, React, Node.js) full stack application that allowed users to create, browse and search images of text quotes.</p>
+    </div>
+    <div class="post-border-bottom mb-2">
+      <h6 id="2021-01-13" class="font-italic"><span class="post-date">Jan 13, 2021</span>: MongoDB University's <a href="https://university.mongodb.com/learning_paths/developer" target="_blank" rel="noopener noreferrer">Developer Learning Path</a></h6>
+      <p>This was my first post-bootcamp endeavour. During the bootcamp we were introduced to MongoDB via Mongoose.js. Mongoose is a thin layer on top of MongoDB. Mongoose adds Models, schemas, and validation. With Mongoose, you use a schema to define a Model. The Model represents your data collection. An instance of the model represents one document in your collection. It is possible to do schemas and validation using the underlying MongoDB, but it’s optional; with Mongoose, it’s included in the box (so to speak).</p>
+      <p>What I was noticing however is that you need to know some of the MongoDB syntax to use Mongoose. It’s not a full replacement. So naturally, I asked why? I googled it and read some blog and stackoverflow posts discussing Mongoose vs the native MongoDB driver. (I’m guessing that the intended migration path is actually from native MongoDB to Mongoose.) Once the bootcamp was over I decided to dig into MongoDB a bit deeper.</p>
+      <p>MongoDB has a (free) developer learning path consisting of 6 courses. Afterwards you can take a (paid) certification exam. Having taken the courses, I would say, if you want to learn just enough native MongoDB for a project, taking all 6 courses would be overkill. M001, M121, and M220 should be adequate for that purpose. However, if you have some spare time, the remaining courses do raise some topics that are helpful to know in the long-term, like how to make the best use of indexes, considerations for modeling your data, and why the default MongoDB deployment is a cluster of 3 machines.</p>
+      <p>You can view my course completion certificates via the links below.<ul>
+        <li><a href="https://university.mongodb.com/course_completion/e3efcd63-2072-4303-97c1-412dff9e91d9" target="_blank" rel="noopener noreferrer">M001: MongoDB Basics</a></li>
+        <li><a href="https://university.mongodb.com/course_completion/4eb39155-4e97-4f7d-8333-153369090848" target="_blank" rel="noopener noreferrer">M103: Basic Cluster Administration</a></li>
+        <li><a href="https://university.mongodb.com/course_completion/4263c252-217d-4ae4-81e9-6aae394a2128" target="_blank" rel="noopener noreferrer">M121: The MongoDB Aggregation Framework</a></li>
+        <li><a href="https://university.mongodb.com/course_completion/5731ae9e-90b4-4ff2-8428-084dc6b449fc" target="_blank" rel="noopener noreferrer">M220JS: MongoDB for Javascript Developers</a></li>
+        <li><a href="https://university.mongodb.com/course_completion/91eb93f5-48b7-4e79-a260-4e7ad69e193a" target="_blank" rel="noopener noreferrer">M201: MongoDB Performance</a></li>
+        <li><a href="https://university.mongodb.com/course_completion/e239ffbf-92d2-46f4-b111-e5d021a3c361" target="_blank" rel="noopener noreferrer">M320: Data Modeling</a></li>
+      </ul></p>
+      <p>While my initial intention was to follow-through with certification, after an admittedly poor technical interview performance, I decided to put studying for the certification on hold and instead focus on preparing for technical interviews.</p>
+    </div>
+    <div class="post-border-bottom mb-2">
+      <h6 id="2020-12-01" class="font-italic"><span class="post-date">Dec 01, 2020</span>: <a href="https://bootcamp.learn.utoronto.ca/coding/" target="_blank" rel="noopener noreferrer">Bootcamp</a> Completed!</h6>
+      <p>The end of a 3 month bootcamp ... and the beginning of a new path as a web developer!</p>
+    </div>
+  </main>
+  <footer class="bg-primary text-center py-2">
+    <a href="https://www.linkedin.com/in/cecil-e-king" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin fa-2x"></i></a>
+    <a href="https://github.com/cek333" target="_blank" rel="noopener noreferrer"><i class="fab fa-github fa-2x"></i></a>
+  </footer>
+  <!-- <footer class="bg-light text-muted text-center py-2 border-top border-bottom border-dark">
+    <p>Copyright 2020 Cecil King</p>
+  </footer> -->
+</body>
+</html>

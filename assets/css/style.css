@@ -55,7 +55,7 @@ main a {
   font-weight: bold; font-size: larger;
 }
 
-/* |Portfolio Page */
+/* Portfolio Page */
 .btn-primary {
   background-color: var(--portfolio-theme) !important;
   border: none;
@@ -72,4 +72,22 @@ main a {
 .card-title {
   color: var(--portfolio-theme) !important;
   font-weight: bold;
+}
+
+h5.divider {
+  border-top: 2px solid var(--portfolio-theme);
+}
+
+h5.section-title {
+  color: var(--portfolio-theme);
+}
+
+/* Blog Page */
+.post-border-bottom {
+  border-bottom: 2px solid var(--portfolio-theme);
+}
+
+.post-date {
+  font-weight: bold;
+  font-color: black;
 }
